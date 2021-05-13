@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM-HTML</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js"></script>
+</head>
+
+<body>
+    <form onsubmit="appendtable();return false;" required>
+        &emsp;<label for="fname" id="bold">First Name</label>&emsp;&emsp;&emsp;&ensp;
+        <input type="text" id="fname" required /></br>
+
+        &emsp;<label for="lname" id="bold">Last  Name</label>&emsp;&emsp;&emsp;&ensp;
+        <input type="text" id="lname" required /></br>
+
+        &emsp;<label for="gender" id="bold">Gender</label>&emsp;&emsp;&emsp;&emsp;&emsp;
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="gender" value="Male" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="gender" value="Female" /></br>
+
+
+
+        &emsp;<label for="food" id="bold">Food</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <label for="roti">Roti-curry</label>
+        <input type="checkbox" name="roti" id="food1" class="favr" value="ROTI" />&emsp;&emsp;
+        <label for="holige">Holige</label>
+        <input type="checkbox" name="holige" id="food2" class="favr" value="HOLIGE" />&emsp;&emsp;
+        <label for="pulav">Pulav</label>
+        <input type="checkbox" name="pulav" id="food3" class="favr" value="PULAV" />&emsp;&emsp;
+        <label for="dessert">Dessert</label>
+        <input type="checkbox" name="dessert" id="food4" class="favr" value="DESSERT" />&emsp;&emsp;
+        <label for="ice">Ice-cream</label>
+        <input type="checkbox" name="ice" id="food5" class="favr" value="ICE-CREAM" /></br>
+
+
+
+        &emsp;<label for="address" id="bold">Address</label>&emsp;&emsp;&emsp;&emsp;&ensp;
+        <input type="text" id="address" required /></br>
+
+        &emsp;<label for="pin" id="bold">Pin-Code</label>&emsp;&emsp;&emsp;&emsp;
+        <input type="text" id="pin" required /></br>
+
+        &emsp;<label for="state" id="bold">State</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input type="text" id="state" required /></br>
+
+        &emsp;<label for="country" id="bold">Country</label>&emsp;&emsp;&emsp;&emsp;&ensp;
+        <input type="text" id="country" required /></br>
+
+
+
+        <p id="submit"> <input type="submit" value="Add to Table" /></p>
+
+    </form>
+
+    <h1>Personal Data</h1>
+    <table id="table">
+        <tr>
+            <td><b>First Name</b></td>
+            <td><b>Last Name</b></td>
+            <td><b>Gender</b></td>
+            <td><b>Food</b></td>
+            <td><b>Address</b></td>
+            <td><b>Pin-Code</b></td>
+            <td><b>State</b></td>
+            <td><b>Country</b></td>
+        </tr>
+    </table>
+</body>
+
+</html>

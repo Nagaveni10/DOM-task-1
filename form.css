@@ -1,0 +1,52 @@
+body {
+    background: radial-gradient(rgb(10, 190, 245), yellow);
+    margin: 50px 300px 50px 300px;
+    align-items: center;
+}
+
+#bold {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input {
+    background: rgb(196, 199, 160);
+}
+
+#submit {
+    /*display: flex;
+    transform: translate(-50%, 50%);*/
+    text-align: center;
+    /*background: rgb(138, 187, 190);*/
+}
+
+form {
+    line-height: 2em;
+    background: rgb(208, 247, 164);
+    position: static;
+}
+
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+    border: "1";
+    background-color: rgb(138, 187, 190);
+    table-layout: inherit;
+    width: 939px;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+#table {
+    border: "1";
+}
+
+h1 {
+    text-align: center;
+    color: rgb(114, 122, 44);
+}
